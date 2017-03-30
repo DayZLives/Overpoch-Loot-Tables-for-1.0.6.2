@@ -28,13 +28,13 @@ Military[] =
 	{Loot_GROUP,		10,		specialclothes},
 	
 	//Containers
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU1, 10, 20},		//545x39	AK74, RPK74
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU2, 10, 20},		//762x39	AK47
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU3, 5, 10},		//762x54r	SVD, PKM
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxEU1, 10, 20},		//556x45	G36, M249
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxEU2, 5, 10},		//762x51	FAL, M240
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxUS1, 10, 20},		//556x45	STANAG, M249
-	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxUS2, 5, 10},		//762x51	DMR, M240
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU1, 20, 30},		//545x39	AK74, RPK74
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU2, 20, 30},		//762x39	AK47
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxRU, AmmoBoxRU3, 20, 30},		//762x54r	SVD, PKM
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxEU1, 20, 30},		//556x45	G36, M249
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxEU2, 20, 30},		//762x51	FAL, M240
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxUS1, 20, 30},		//556x45	STANAG, M249
+	{Loot_CONTAINER,	2,		DZ_AmmoBoxUS, AmmoBoxUS2, 20, 30},		//762x51	DMR, M240
 //	{Loot_CONTAINER,	2,		DZ_MedBox, MedicalBox, 10, 20},
 	
 	//Other
@@ -88,7 +88,7 @@ MilitarySpecial[] =
 	{Loot_TOOL,		2,		ItemEtool},
 	
 	//Backpacks
-	{Loot_GROUP,		9,		militarybackpacks},
+	{Loot_GROUP,		15,		militarybackpacks},
 	{Loot_GROUP,		9,		machinegunammo},
 	
 	//Clothing
@@ -96,27 +96,27 @@ MilitarySpecial[] =
 	{Loot_GROUP,		2,		specialclothes},
 	
 	//Containers
-	{Loot_CONTAINER,	2.2,		DZ_AmmoBoxRU, AmmoBoxRU1, 10, 20},	//5.45x39
-	{Loot_CONTAINER,	1.8,			DZ_AmmoBoxUS, AmmoBoxUS1, 7, 14},	//5.56x45
-	{Loot_CONTAINER,	1.8,			DZ_AmmoBoxRU, AmmoBoxCZ1, 7, 14},	//7.62x39
-	{Loot_CONTAINER,	0.8,			DZ_AmmoBoxRU, AmmoBoxCZ2, 2, 5},	//7.62x54R
-//	{Loot_CONTAINER,	0.5,		DZ_AmmoBoxRU, AmmoBoxRU3, 3, 7},	//7.62x54R
-	{Loot_CONTAINER,	0.2,		DZ_ExplosiveBoxRU, AmmoBoxRU4, 5, 15},	//GP-25
-	{Loot_CONTAINER,	0.2,		DZ_ExplosiveBoxRU, AmmoBoxRU5, 3, 7},	//Grenades
+	{Loot_CONTAINER,	5,		DZ_AmmoBoxRU, AmmoBoxRU1, 20, 30},	//5.45x39
+	{Loot_CONTAINER,	5,		DZ_AmmoBoxUS, AmmoBoxUS1, 20, 30},	//5.56x45
+	{Loot_CONTAINER,	5,		DZ_AmmoBoxRU, AmmoBoxCZ1, 20, 30},	//7.62x39
+	{Loot_CONTAINER,	5,		DZ_AmmoBoxRU, AmmoBoxCZ2, 20, 30},	//Overwatch High Powered Sniper
+//	{Loot_CONTAINER,	0.5,	DZ_AmmoBoxRU, AmmoBoxRU3, 3, 7},	//7.62x54R
+	{Loot_CONTAINER,	5,		DZ_ExplosiveBoxRU, AmmoBoxRU4, 20, 30},	//GP-25
+	{Loot_CONTAINER,	5,		DZ_ExplosiveBoxRU, AmmoBoxRU5, 20, 30},	//Grenades
 
 	//Other
-	{Loot_MAGAZINE,		3,		FoodMRE},
+	{Loot_MAGAZINE,		5,		FoodMRE},
 //	{Loot_MAGAZINE,		2,		ItemSandbag},
-	{Loot_MAGAZINE,		0.5,	PipeBomb},
-	{Loot_MAGAZINE,		0.5,	MAAWS_HEAT},
-	{Loot_MAGAZINE,		2,		100Rnd_762x54_PK},
-	{Loot_PILE,			15,		AmmoMilitaryLow, 1, 4},
-	{Loot_PILE,			10,		AmmoMilitaryHigh, 1, 3},
-	{Loot_GROUP,		2,		AttachmentsGeneric},
-	{Loot_GROUP,		8,		AttachmentsEast},
-	{Loot_GROUP,		6,		AttachmentsWest},
-	{Loot_PILE,			10,		MedicalLow, 1, 2},
-	{Loot_PILE,			10,		Consumable, 1, 2}
+	{Loot_MAGAZINE,		5,	PipeBomb},
+	{Loot_MAGAZINE,		5,	MAAWS_HEAT},
+	{Loot_MAGAZINE,		5,		100Rnd_762x54_PK},
+	{Loot_PILE,			5,		AmmoMilitaryLow, 1, 4},
+	{Loot_PILE,			5,		AmmoMilitaryHigh, 1, 3},
+	{Loot_GROUP,		5,		AttachmentsGeneric},
+	{Loot_GROUP,		5,		AttachmentsEast},
+	{Loot_GROUP,		5,		AttachmentsWest},
+	{Loot_PILE,			20,		MedicalLow, 1, 2},
+	{Loot_PILE,			20,		Consumable, 1, 2}
 //	{Loot_GROUP,		8,		Generic}
 };
 
