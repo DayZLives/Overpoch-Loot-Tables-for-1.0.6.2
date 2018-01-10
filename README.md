@@ -7,12 +7,11 @@
 
 2. Unpack your mission PBO and copy the ***dayz_code*** folder over to the root of your mission folder.
 
-    Note: if you already have this folder from installing other mods, then just copy the CrgLoot folder into the configs directory.                                
-    If you don't have a configs directory, make one.
+    Note: if you already have this folder from installing other mods, then just copy the CrgLoot folder into the configs directory. If you don't have a configs directory, make one.                                
 
 3. Edit ***description.ext***
 
-    Find this code:
+    Find this line:
 
       ```sqf
       #include "\z\addons\dayz_code\Configs\CfgLoot\CfgLoot.hpp"
