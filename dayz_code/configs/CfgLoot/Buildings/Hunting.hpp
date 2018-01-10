@@ -4,7 +4,7 @@ class Hunting : Default
 	minRoaming = 1;
 	maxRoaming = 3;
 	zombieClass[] = {"z_hunter","z_hunter","z_hunter"};
-	lootChance = 0.8;
+	lootChance = 1;
 	lootGroup = Hunting;
 };
 
